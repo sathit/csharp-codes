@@ -62,7 +62,7 @@ public class PatchExampleRequest
 {
     public PatchValue<int>? IntField { get; set; }
     public PatchValue<bool>? BoolField { get; set; }
-    public PatchValue<string>? StringField { get; set; }
+    public PatchValue? StringField { get; set; }
     public PatchValue<DateOnly>? DateOnlyField { get; set; }
 }
 
